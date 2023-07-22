@@ -320,7 +320,7 @@ dd {
     line-height: 1.2em;
     font-weight: 300;
     padding: .5em 1.5em;
-    border: 1px solid darkolivegreen;
+    border: 1px solid #c59a4a;
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: .5em;
@@ -328,9 +328,8 @@ dd {
 }
 
 .half .pageLinks__link:focus,.half .pageLinks__link:hover {
-    color: #fff;
     text-decoration: none;
-    background-color: darkolivegreen
+    background-color: #c59a4a;
 }
 
 .half__content {
