@@ -225,7 +225,7 @@ body p,body ul {
 }
 
 .pageContent {
-    margin: 0 0 2rem
+    margin: 0 0 3rem
 }
 
 .pageContent p {
@@ -234,11 +234,12 @@ body p,body ul {
 
 .pageContent .tagline {
     font-size: 1.8rem;
-    margin: 2rem 0;
+    margin: 4rem 0;
+    line-height: normal;
 }
 
 .pageContent .contact {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .pageContent .companyName {
@@ -248,6 +249,11 @@ body p,body ul {
 .pageContent .name {
     color: #c59a4a;
 }
+
+.pageContent .address {
+    margin: 0 0;
+}
+
 
 .pageContent .phone {
     text-decoration: none;
