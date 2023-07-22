@@ -224,6 +224,10 @@ body p,body ul {
     margin: 0 0 2rem
 }
 
+.pageContent p {
+    margin: 0
+}
+
 ::-moz-selection {
     background: darkolivegreen;
     color: #fff
