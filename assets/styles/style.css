@@ -23,7 +23,7 @@ abbr[title] {
 }
 
 b,strong {
-    font-weight: bolder
+    font-weight: bold
 }
 
 code,kbd,pre,samp {
@@ -153,7 +153,8 @@ summary {
 
 .h3,h3 {
     font-size: 1.375em;
-    line-height: 1.13636364
+    line-height: 1.13636364;
+    font-weight: 400
 }
 
 @media (min-width: 43.75em) {
@@ -223,12 +224,12 @@ body p,body ul {
 }
 
 ::-moz-selection {
-    background: purple;
+    background: darkolivegreen;
     color: #fff
 }
 
 ::selection {
-    background: purple;
+    background: darkolivegreen;
     color: #fff
 }
 
@@ -237,7 +238,7 @@ audio,iframe,img,object,video {
 }
 
 a {
-    color: purple
+    color: darkolivegreen
 }
 
 a:hover {
@@ -299,28 +300,28 @@ dd {
     }
 }
 
-.half .socialLinks__link {
+.half .pageLinks__link {
     background-color: transparent;
     display: inline-block;
     position: relative;
     font-family: Open Sans,Helvetica,Arial,sans-serif;
     text-decoration: none;
-    color: purple;
+    color: darkolivegreen;
     font-size: .9em;
     line-height: 1.2em;
     font-weight: 300;
     padding: .5em 1.5em;
-    border: 1px solid purple;
+    border: 1px solid darkolivegreen;
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: .5em;
     transition: background-color .14s ease-in-out
 }
 
-.half .socialLinks__link:focus,.half .socialLinks__link:hover {
+.half .pageLinks__link:focus,.half .pageLinks__link:hover {
     color: #fff;
     text-decoration: none;
-    background-color: purple
+    background-color: darkolivegreen
 }
 
 .half__content {
@@ -347,36 +348,18 @@ dd {
     background-image:url("../img/bg.jpg")
 }
 
-/* @media screen and (max-width: 800px) {
-    .half__image {
-        background-image:url("../img/bg.jpg")
-    }
-}
-
-@media screen and (min-width: 801px) and (max-width:1200px) {
-    .half__image {
-        background-image:url("../img/bg.jpg")
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .half__image {
-        background-image:url("../img/bg.jpg")
-    }
-} */
-
 .full {
     min-height: 100vh;
     background-color: #213334
 }
 
-.full,.full .socialLinks__link {
+.full,.full .pageLinks__link {
     color: #fff;
     font-family: Open Sans,Helvetica,Arial,sans-serif;
     font-weight: 300
 }
 
-.full .socialLinks__link {
+.full .pageLinks__link {
     background-color: transparent;
     display: inline-block;
     position: relative;
@@ -391,7 +374,7 @@ dd {
     transition: background-color .14s ease-in-out
 }
 
-.full .socialLinks__link:focus,.full .socialLinks__link:hover {
+.full .pageLinks__link:focus,.full .pageLinks__link:hover {
     color: #000;
     text-decoration: none;
     background-color: #fff
@@ -399,25 +382,8 @@ dd {
 
 .full__image {
     background-size: cover;
-    background-position: 50%
-}
-
-@media screen and (max-width: 800px) {
-    .full__image {
-        background-image:url(/assets/img/bg.jpg)
-    }
-}
-
-@media screen and (min-width: 801px) and (max-width:1200px) {
-    .full__image {
-        background-image:url(/assets/img/bg.jpg)
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .full__image {
-        background-image:url(/assets/img/bg.jpg)
-    }
+    background-position: 50%;
+    background-image:url(/assets/img/bg.jpg)
 }
 
 @media screen and (min-width: 768px) {
@@ -516,12 +482,12 @@ dd {
     display: block
 }
 
-.card .socialLinks__link {
+.card .pageLinks__link {
     background-color: transparent;
     display: inline-block;
     position: relative;
     text-decoration: none;
-    color: purple;
+    color: darkolivegreen;
     font-size: .9em;
     line-height: 1.2em;
     font-weight: 300;
@@ -534,10 +500,10 @@ dd {
     font-family: Open Sans,Helvetica,Arial,sans-serif
 }
 
-.card .socialLinks__link:focus,.card .socialLinks__link:hover {
+.card .pageLinks__link:focus,.card .pageLinks__link:hover {
     color: #fff;
     text-decoration: none;
-    background-color: purple
+    background-color: darkolivegreen
 }
 
 @media screen and (max-width: 768px) {
@@ -576,4 +542,12 @@ dd {
     min-height: 50vh;
     -ms-flex-order: 1;
     order: 1
+}
+
+body.impressum p {
+    margin: 0 0 .2em
+}
+
+body.impressum p:last-of-type {
+    margin: 0 0 2em
 }
