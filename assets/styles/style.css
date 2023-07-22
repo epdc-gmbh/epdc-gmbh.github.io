@@ -233,12 +233,12 @@ body p,body ul {
 }
 
 ::-moz-selection {
-    background: darkolivegreen;
+    background: #090940;
     color: #fff
 }
 
 ::selection {
-    background: darkolivegreen;
+    background: #090940;
     color: #fff
 }
 
@@ -247,7 +247,7 @@ audio,iframe,img,object,video {
 }
 
 a {
-    color: darkolivegreen
+    color: #090940
 }
 
 a:hover {
@@ -482,24 +482,18 @@ dd {
     background-color: transparent;
     display: inline-block;
     position: relative;
-    text-decoration: none;
-    color: darkolivegreen;
+    color: #090940;
     font-size: .9em;
     line-height: 1.2em;
     font-weight: 300;
     padding: .5em 1.5em;
-    border: 1px solid black;
-    border-radius: 4px;
     cursor: pointer;
     margin-bottom: .5em;
-    transition: background-color .14s ease-in-out;
     font-family: Open Sans,Helvetica,Arial,sans-serif
 }
 
 .card .pageLinks__link:focus,.card .pageLinks__link:hover {
-    color: #fff;
-    text-decoration: none;
-    background-color: darkolivegreen
+    color: #090940;
 }
 
 @media screen and (max-width: 768px) {
