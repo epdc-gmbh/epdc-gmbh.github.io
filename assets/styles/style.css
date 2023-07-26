@@ -572,3 +572,7 @@ body.impressum p {
 body.impressum p:last-of-type {
     margin: 0 0 2em
 }
+
+body.impressum .pageContent {
+    margin-top: 2em;
+}
