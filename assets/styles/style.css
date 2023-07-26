@@ -375,196 +375,9 @@ dd {
     background-image:url("../img/bg.jpg")
 }
 
-.full {
-    min-height: 100vh;
-    background-color: #213334
+body.impressum main {
+   margin: 5%;
 }
-
-.full,.full .pageLinks__link {
-    color: #fff;
-    font-family: Barlow,Helvetica,Arial,sans-serif;
-    font-weight: 300
-}
-
-.full .pageLinks__link {
-    background-color: transparent;
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    font-size: .9em;
-    line-height: 1.2em;
-    padding: .5em 1.5em;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-bottom: .5em;
-    transition: background-color .14s ease-in-out
-}
-
-.full .pageLinks__link:focus,.full .pageLinks__link:hover {
-    color: #111152;
-    text-decoration: none;
-    background-color: #fff
-}
-
-.full__image {
-    background-size: cover;
-    background-position: 50%;
-    background-image:url(/assets/img/bg.jpg)
-}
-
-@media screen and (min-width: 768px) {
-    .full__image {
-        position:absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 100vw;
-        height: 100vh
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .full main {
-        display:-ms-flexbox;
-        display: flex;
-        height: 100vh;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-pack: end;
-        justify-content: flex-end
-    }
-}
-
-.full main.content--left {
-    -ms-flex-pack: start;
-    justify-content: flex-start
-}
-
-.full main.content--center {
-    -ms-flex-pack: center;
-    justify-content: center
-}
-
-.full__content {
-    padding: 20px
-}
-
-@media screen and (min-width: 768px) {
-    .full__content {
-        max-width:50vw;
-        z-index: 1;
-        position: relative
-    }
-}
-
-.full__image {
-    min-height: 50vh;
-    -ms-flex-order: 1;
-    order: 1
-}
-
-.card {
-    min-height: 100vh;
-    font-family: Barlow,Helvetica,Arial,sans-serif;
-    font-weight: 300;
-    background-color: #213334;
-    background-size: cover;
-    background-position: 50%
-}
-
-@media screen and (max-width: 800px) {
-    .card {
-        background-image:url(/assets/img/bg.jpg)
-    }
-}
-
-@media screen and (min-width: 801px) and (max-width:1200px) {
-    .card {
-        background-image:url(/assets/img/bg.jpg)
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .card {
-        background-image:url(/assets/img/bg.jpg)
-    }
-}
-
-.card .pageTitle {
-    color: black;
-    position: relative;
-    padding-top: 1.25rem
-}
-
-.card .pageTitle:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 6.25rem;
-    height: .4375rem;
-    background-color: black;
-    display: block
-}
-
-.card .pageLinks__link {
-    background-color: transparent;
-    display: inline-block;
-    position: relative;
-    color: #090940;
-    font-size: .9em;
-    line-height: 1.2em;
-    font-weight: 300;
-    padding: .5em 1.5em;
-    cursor: pointer;
-    margin-bottom: .5em;
-    font-family: Barlow,Helvetica,Arial,sans-serif
-}
-
-.card .pageLinks__link:focus,.card .pageLinks__link:hover {
-    color: #111152;
-}
-
-@media screen and (max-width: 768px) {
-    .card main {
-        margin:10%
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .card main {
-        height:100vh;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-pack: center;
-        justify-content: center
-    }
-}
-
-.card__content {
-    padding: 40px;
-    background-color: #fff;
-    border-radius: .625rem
-}
-
-@media screen and (min-width: 768px) {
-    .card__content {
-        max-width:37.5rem;
-        z-index: 1;
-        position: relative
-    }
-}
-
-.card__image {
-    min-height: 50vh;
-    -ms-flex-order: 1;
-    order: 1
-}
-
 body.impressum p {
     margin: 0 0 .2em
 }
@@ -575,4 +388,25 @@ body.impressum p:last-of-type {
 
 body.impressum .pageContent {
     margin-top: 2em;
+}
+
+body.impressum h5 {
+    margin: 15px 0 8px;
+}
+
+body.impressum ol li, body.impressum ul li {
+    margin: 10px
+}
+
+.data-privacy {
+    font-size: 11px;
+}
+
+@media screen and (min-width: 768px) {
+    .impressum .logo {
+        max-width: 50%;
+    }
+    .data-privacy {
+        max-width: 80%;
+    }
 }
